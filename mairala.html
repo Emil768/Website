@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700|Source+Sans+Pro:300i,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <title>Js</title>
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header_all_nav">
+                <div class="header_logo">
+                    Lucid <span class="header_logo_span">onepage theme</span>
+                </div>
+                <div class="btn_menu" onclick="openNav()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="overlay" id="overlay">
+                    <nav class="header_nav">
+                        <a class="header_nav_link" data-scroll="#home" href="#">Home</a>
+                        <a class="header_nav_link" data-scroll="#features" href="#">Features</a>
+                        <a class="header_nav_link" data-scroll="#about" href="#">About</a>
+                        <a class="header_nav_link" data-scroll="#reviews" href="#">Testimonials</a>
+                        <a class="header_nav_link" data-scroll="#pricing" href="#">Pricing</a>
+                        <a class="header_nav_link" data-scroll="#contact" href="#">Contact</a>
+                        <i class="fa fa-times" aria-hidden="true" onclick="closeNav()"></i>
+                    </nav>
+                </div>
+            </div>
+            <div class="header_all_content">
+                <div class="header_info">
+                    <div class="header_info_intro">
+                        introducing lucid theme
+                    </div>
+                    <div class="header_info_page">
+                        Carefully crafted and beautiful landing page.
+                    </div>
+                    <div class="header_info_text">
+                        Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
+                    </div>
+                    <div class="header_buttons">
+                        <div>
+                            <a class="header_button" href="#"> download now</a>
+                        </div>
+                        <div>
+                            <a class="header_button2" href="#"> view features</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_iphone_img">
+                    <img src="img/devices-kopia.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="product" id="features">
+        <div class="container">
+            <div class="product_over">
+                product overview
+            </div>
+            <div class="product_list">
+                List of amazing features
+            </div>
+            <div class="product_line"></div>
+            <div class="product_blocks">
+                <div class="product_block">
+                    <div class="product_img">
+                        <img src="img/Monitor.png">
+                    </div>
+                    <h2 class="product_zag">Responsive</h2>
+                    <p class="product_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur. </p>
+                </div>
+                <div class="product_block">
+                    <div class="product_img">
+                        <img src="img/Settings.png">
+                    </div>
+                    <h2 class="product_zag">Costomizable</h2>
+                    <p class="product_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur. </p>
+                </div>
+                <div class="product_block">
+                    <div class="product_img">
+                        <img src="img/Like.png">
+                    </div>
+                    <h2 class="product_zag">Lovely design</h2>
+                    <p class="product_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur. </p>
+                </div>
+                <div class="product_block">
+                    <div class="product_img">
+                        <img src="img/Phone.png">
+                    </div>
+                    <h2 class="product_zag">Mobile Friendly</h2>
+                    <p class="product_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="hr_color">
+
+    <section class="device" id="about">
+        <div class="container">
+            <div class="device_all_block">
+                <div class="device_phone">
+                    <img class="device_phone_img" src="img/devices.png">
+                </div>
+                <div class="device_info">
+                    <div class="product_over ">
+                        dip into the details
+                    </div>
+                    <div class="product_list">
+                        Beautiful on every device
+                    </div>
+                    <div class="device_line"></div>
+                    <div class="device_info_text">
+                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                    </div>
+                    <div class="device_adv_blocks">
+                        <div class="device_adv">
+                            <img class="device_img" src="img/Cup.png"><span>Awesome design</span>
+                        </div>
+                        <div class="device_adv">
+                            <img class="device_img" src="img/Mouse.png">Fully responsive
+                        </div>
+                        <div class="device_adv">
+                            <img class="device_img" src="img/Energy.png">Retina ready
+                        </div>
+                        <div class="device_adv">
+                            <img class="device_img" src="img/Speedometer.png">Tons of features and easy to use
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <section class="costomize">
+        <div class="container">
+            <div class="costomize_all_block">
+                <div class="costomize_info">
+                    <div class="product_over ">
+                        dip into the details
+                    </div>
+                    <div class="product_list">
+                        Super easy to customize
+                    </div>
+                    <div class="device_line"></div>
+                    <div class="device_info_text">
+                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.Class aptent taciti sociosqu ad litora torquent per
+                        conubia nostra, per inceptos himenaeos.
+                    </div>
+                </div>
+                <div class="costomize_iphohe">
+                    <img class="costomize_iphone_img" src="img/iPhone 5.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rev" id="reviews">
+        <div class="container">
+            <div class="rev_all">
+                <div class="product_over ">
+                    quality has its price
+                </div>
+                <div class="product_list review_list">
+                    Pricings & Plans
+                </div>
+                <div class="product_line"></div>
+            </div>
+            <div class="rev_comments">
+                <div class="slider">
+                    <div class="rev_comment">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 7.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 16.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 16.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 7.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 7.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 16.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 16.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="rev_comment rev_comment2">
+                        <div class="rev_comment_text">
+                            Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                        </div>
+                        <div class="rev_autor">
+                            <img src="img/Warstwa 7.png">
+                            <div class="rev_autor_name">
+                                <div class="rev_name"> John Doe</div>
+                                <div>
+                                    CEO, THE RIVERS COMPANY
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="que">
+        <div class="container">
+            <div class="que_all">
+                <div class="que_text">
+                    Like what you see? <span class="que_text_span">Get this great theme now!</span>
+                </div>
+                <div class="header_buttons">
+                    <div>
+                        <a class="header_button" href="#"> view features</a>
+                    </div>
+                    <div>
+                        <a class="header_button2" href="#">download now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price" id="pricing">
+        <div class="container">
+            <div class="product_over">
+                quality has its price
+            </div>
+            <div class="product_list">
+                Pricings & Plans
+            </div>
+            <div class="product_line"></div>
+            <div class="price_all_blocks">
+                <div class="price_block">
+                    <div class="price_block_free">Free</div>
+                    <div class="price_block_per"><span class="price_span">$</span>0 <span class="price_block_p">/per month</span>
+                    </div>
+                    <div class="price_block_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span class="price_block_span_two">lacinia</span> consectetur.</div>
+                    <div>
+                        <a class="price_block_but" href="#">order now</a>
+                    </div>
+                </div>
+                <div class="price_block">
+                    <div class="price_block_free">Personal</div>
+                    <div class="price_block_per"><span class="price_span">$</span>25 <span class="price_block_p">/per month</span>
+                    </div>
+                    <div class="price_block_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span class="price_block_span_two">lacinia</span> consectetur.</div>
+                    <div>
+                        <a class="price_block_but" href="#">order now</a>
+                    </div>
+                </div>
+                <div class="price_block">
+                    <div class="price_block_free">Business</div>
+                    <div class="price_block_per"><span class="price_span">$</span>50 <span class="price_block_p">/per month</span>
+                    </div>
+                    <div class="price_block_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span class="price_block_span_two">lacinia</span> consectetur.</div>
+                    <div>
+                        <a class="price_block_but" href="#">order now</a>
+                    </div>
+                </div>
+                <div class="price_block">
+                    <div class="price_block_free">Ultimate</div>
+                    <div class="price_block_per"><span class="price_span">$</span>99 <span class="price_block_p">/per month</span>
+                    </div>
+                    <div class="price_block_text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span class="price_block_span_two">lacinia</span> consectetur.</div>
+                    <div>
+                        <a class="price_block_but" href="#">order now</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="product_over">
+                stay in touch
+            </div>
+            <div class="product_list">
+                Contact us
+            </div>
+            <div class="product_line"></div>
+            <div class="contact_all_blocks">
+                <div class="contact_block">
+                    <img src="img/Phone.png" class="contact_block_img">
+                    <p>Phone: (415) 124-5678</p>
+                    Fax: (412) 123-8290
+                </div>
+                <div class="contact_block">
+                    <img src="img/Pointer.png" class="contact_block_img">
+                    <p>1001 Brickell Bay Dr.</p> Suite 1900
+                    <p>Miami, FL 33131</p>
+                </div>
+                <div class="contact_block">
+                    <img src="img/Envelope.png" class="contact_block_img">
+                    <p>support@yourname.com</p>
+                </div>
+            </div>
+            <div class="contact_data">
+                <form class="contact_data_form">
+                    <div class="contact_data_inputs">
+                        <input type="text" name="name" placeholder="Name*" class="contact_data_input">
+                        <input type="text" name="email" placeholder="Email*" class="contact_data_input">
+                        <input type="text" name="subject" placeholder="Subject*" class="contact_data_input">
+                    </div>
+                    <textarea placeholder="Message*" class="contact_data_area"></textarea>
+                </form>
+                <a class="price_block_but" href="#">Send message</a>
+            </div>
+        </div>
+        <!-- <div class="contact_map">
+            <img src="img/Warstwa 15.png" class="contact_map_img">
+        </div> -->
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac887ff3c5e9be9cde9d2fe9663689b676a2687c7a1f4e70c7757b09aa944da61&amp;width=100%25&amp;height=371&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_icons">
+                <i class="fa fa-behance" aria-hidden="true"></i>
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="footer_copy">
+                copyright © 2014 lucid onepage theme
+            </div>
+        </div>
+    </footer> 
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>

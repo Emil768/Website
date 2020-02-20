@@ -1,0 +1,254 @@
+            @media(max-width: 1200px) {
+                .container {
+                    max-width: 970px;
+                }
+                .costomize_all_block {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .que_text {
+                    font-size: 24px;
+                }
+                .costomize_info {
+                    margin: 0;
+                    width: 739px;
+                    text-align: center;
+                }
+                .device_line {
+                    margin: 0 auto 40px;
+                }
+                .rev_comment {
+                    margin: 0 auto;
+                }
+                .rev_comment2 {
+                    margin: 0 auto;
+                }
+                .price_all_blocks {}
+                .price_block {
+                    width: 417px;
+                    margin-bottom: 40px;
+                    margin: 0 40px 40px 0;
+                }
+                .price_span {
+                    left: 162px;
+                }
+            }
+            
+            @media(max-width: 992px) {
+                .container {
+                    max-width: 750px;
+                }
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    z-index: 1;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    background-color: black;
+                    background-color: rgba(0, 0, 0, 0.9);
+                    overflow-y: hidden;
+                    -webkit-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    transition: 0.5s;
+                }
+                .header_nav {
+                    position: relative;
+                    top: 25%;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+                .header_nav_link {
+                    display: block;
+                    text-decoration: none;
+                    margin-bottom: 15px;
+                    color: white;
+                    font-weight: 700;
+                    -webkit-transition: all ease .4s;
+                    -o-transition: all ease .4s;
+                    transition: all ease .4s;
+                    font-size: 20px;
+                }
+                .header_nav_link:hover {
+                    opacity: 0.7;
+                    border: none;
+                    padding: 0;
+                }
+                .overlay .fa {
+                    color: #fff;
+                    font-size: 40px;
+                    position: absolute;
+                    top: -160px;
+                    right: 80px;
+                }
+                .overlay .fa:hover {
+                    cursor: pointer;
+                }
+                .btn_menu {
+                    display: block;
+                }
+                .header_all_content {
+                    display: block;
+                }
+                .header_info {
+                    width: 500px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                .header_buttons {
+                    justify-content: center;
+                }
+                .header_iphone_img {
+                    margin-top: 50px;
+                    text-align: center;
+                }
+                .product_blocks {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                .product_block {
+                    margin: 0;
+                    text-align: center;
+                    width: 250px;
+                    padding-bottom: 70px;
+                }
+                .device {
+                    margin-bottom: 60px;
+                }
+                .device_all_block {
+                    display: block;
+                    text-align: center;
+                }
+                .device_adv {
+                    display: block;
+                }
+                .device_line {
+                    margin: 0 auto 40px;
+                }
+                .que {
+                    height: 200px;
+                }
+                .que_all {
+                    display: block;
+                    text-align: center;
+                }
+                .que_text {
+                    margin-bottom: 30px;
+                }
+                .price_block {
+                    margin: 0 auto 40px;
+                }
+                .price_block:last-child {
+                    margin: 0 auto;
+                }
+            }
+            
+            @media (max-width:838px) {
+                .contact_data {
+                    height: 360px;
+                    width: 616px;
+                    bottom: 0;
+                }
+                .contact_data_input {
+                    width: 203px;
+                }
+                .contact_data_input {
+                    width: 223px;
+                }
+            }
+            
+            @media(max-width: 768px) {
+                .costomize_info {
+                    width: 367px;
+                    margin: 0 auto;
+                }
+                .costomize_iphone_img {
+                    height: 400px;
+                    width: 300px;
+                }
+                .device_info {
+                    width: 313px;
+                    margin: 0 auto;
+                }
+                .contact_data {
+                    height: 519px;
+                    width: 526px;
+                }
+                .contact_data_form {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .contact_data_input {
+                    width: 300px;
+                }
+                .contact_data_inputs {
+                    margin: 0;
+                }
+                .contact_data_area {
+                    height: 124px;
+                    width: 300px;
+                    margin-top: 20px;
+                }
+            }
+            
+            @media(max-width: 578px) {
+                .que {
+                    height: 300px;
+                }
+                .header_buttons {
+                    flex-direction: column;
+                }
+                .header_button {
+                    margin-bottom: 20px;
+                }
+                .header_button2 {
+                    margin: 0;
+                }
+                .rev_comment {
+                    width: 300px;
+                }
+                .contact_all_blocks {
+                    flex-direction: column;
+                }
+                .contact_block {
+                    margin-bottom: 40px;
+                }
+                .contact_data {
+                    height: 519px;
+                    width: 312px;
+                }
+                .contact_data_input {
+                    width: 215px;
+                }
+                .contact_data_area {
+                    width: 215px;
+                }
+            }
+            
+            @media (max-width:500px) {
+                .header {
+                    height: 720px;
+                }
+                .header_info {
+                    width: 336px;
+                }
+                .costomize_info {
+                    width: 322px;
+                }
+                .device_phone_img {
+                    height: 350px;
+                }
+                .contact_block {
+                    margin-bottom: 40px;
+                }
+                .price_span {
+                    left: 119px;
+                }
+            }
+            
+            @media(min-width: 992px) {
+                .header_nav {
+                    display: block !important;
+                }
+            }
